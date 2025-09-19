@@ -2,9 +2,9 @@
 public class Pessoa {
 
 	//Abaixo da Class = atributo
-	String nomeAt;
-	int idadeAt;
-	Endereco endereco;
+	private String nomeAt;
+	private int idadeAt;
+	private Endereco endereco;
 	
 	//Construtores
 	public Pessoa() {
@@ -21,6 +21,14 @@ public class Pessoa {
 		return nomeAt;
 	}
 	
+	public Endereco getEndereco() {
+		return endereco;
+	}
+	
+	public void setEndereco(Endereco enderecoPar) {
+		this .endereco = enderecoPar;
+	}
+	
 	public int getIdade() {
 		return idadeAt;
 	}
@@ -33,4 +41,6 @@ public class Pessoa {
 	public void setIdade(int idadePar) {
 		this .idadeAt = idadePar;
 	}
+	
+
 }

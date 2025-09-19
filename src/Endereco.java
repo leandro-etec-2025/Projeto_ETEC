@@ -2,9 +2,9 @@
 public class Endereco {
 	
 	// Atributos
-	String ruaAt;
-	String cidadeAt;
-	String estadoAt;
+	private String ruaAt;
+	private String cidadeAt;
+	private String estadoAt;
 	
 	// Construtores:
 	public Endereco(String ruaPar, String cidadePar, 
